@@ -2,6 +2,7 @@ import time
 import matplotlib.pyplot as plt
 import numpy as np
 
+# --------------- FUNCIONES --------------------------
 # Algoritmo Constante O(1)
 def constant_algorithm(arr):
     return arr[0]
@@ -71,10 +72,15 @@ def measure_time(func, *args):
     end_time = time.time()
     return end_time - start_time
 
+# --------------------------------------------------------------
+# --------------- VARIABLE DE ENTRADA --------------------------
+
 # Tamaños de entrada
 n = 20
 #Creamos una lista de numeros de manera creciente hasta alcanzar n
 sizes = np.arange(1, n+1)
+
+# --------------- EJECUTAMOS ----------------------------------
 
 # Medir tiempos de ejecución
 constant_times = [measure_time(constant_algorithm, list(range(n))) for n in sizes]
@@ -84,7 +90,10 @@ merge_sort_times = [measure_time(merge_sort, list(range(n))) for n in sizes]
 bubble_sort_times = [measure_time(bubble_sort, list(range(n))) for n in sizes]
 fibonacci_times = [measure_time(fibonacci, n) for n in sizes]
 
-# Graficar los resultados
+# --------------------------------------------------------------
+
+# --------------- GRAFICAMOS -----------------------------------
+
 plt.figure(figsize=(10, 6))
 plt.plot(sizes, constant_times, label='O(1) - Constante')
 plt.plot(sizes, binary_times, label='O(log n) - Logarítmica')

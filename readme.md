@@ -46,5 +46,5 @@ Luego ya tenemos la parte donde ejecutamos cada función y sus resultados son us
 
 ## Recomendaciones
 
-Si vas a ejecutar todas las funciones te recomendamos que la variable de ingreso **"n" no sea mayor a 20** ya que la función Exponencial llamada **fibonacci** tiene un tiempo de ejecución de (2^n) y acomparación de las otras, se torna mucho mas lenta con un valor de **"n"** muy grande.
+Si vas a ejecutar todas las funciones te recomiendo que la variable de ingreso **"n" no sea mayor a 20** ya que la función Exponencial llamada **fibonacci** tiene un tiempo de ejecución de (2^n) y acomparación de las otras, se torna mucho mas lenta con un valor de **"n"** muy grande.
 Puedes comentar la ejecución de dicha función como así tambien su grafica, de esta manera podras comparar los tiempos de las otras funciones con un numero de **"n"** más grande.

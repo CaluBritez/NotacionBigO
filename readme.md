@@ -1,10 +1,10 @@
 # Notación Big O
 
-### Descripción del proyecto
+### Descripción
 En este proyecto se realizara la comparación de tiempos de ejecución de diferentes algoritmos, los cuales tienen un diferente comportamiento en cuanto al **análisis "Big O"**.
 Este último representa la complejidad del peor de los casos de un algoritmo.
 
-## Como ejecutar el proyecto
+## Como ejecutar
 
 Utilizaremos el lenguaje Python para realizar los algoritmos, por lo cual debes tener instalado Python en tu ordenador y luego debes instalar las librerías que utlizaremos de la siguiente forma:
 
@@ -18,7 +18,7 @@ Por último, solo debes ejecutar el proyecto:
 ```
 python index.py
 ```
-## Partes del proyecto - Descripción del Código
+## Partes - Descripción del Código
 
 ### Funciones
 
